@@ -96,7 +96,12 @@ main{
     color: hsl(193, 38%, 86%);
     margin-bottom: 10px;
   }
-
+  .divider_desktop {
+    margin-bottom: 20px;
+  }
+  .divider_mobile {
+    display: none;
+  }
   @media screen and (max-width: 412px) {
     .divider_desktop {
       display: none;
