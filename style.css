@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(219, 19%, 15%);
+    display: flex;
+    flex-direction: column;
+
+}
+
+main{
+    background-color: hsl(218, 21%, 31%);
+    border-radius: 2px;
+    display: flex;
+    border-radius: 2%;
+    flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 1.4rem 1rem 2.75rem 1rem;
+  text-align: center;
+  position: relative;
+  width: min(95%, 32rem);
+    padding: 3em 2em;
+    max-width: 500px;
+    margin: 10em auto 4em;
+    text-align: center;
+    position: relative;
+    min-height: 20rem;
+    
+}
+.divider {
+    padding-bottom: none;
+    
+}
+.title {
+    font-size: .75rem;
+    color:  #52ffa8;
+    letter-spacing: .3em;
+  }
+.advice-id{
+    font-size: .6875rem;
+    color: #52ffa8;
+    letter-spacing: .3em;
+
+}
+
+.advice{
+    font-size: 1.5rem;
+    color: #cee3e9;
+}
+
+.dice-button{
+    background-color: hsl(150, 100%, 66%);
+    border: solid 2px hsl(150, 100%, 66%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 0 auto;
+    border-radius: 50%;
+ 
+    bottom: -24px; 
+    
+}
+
+.dice-button:hover {
+    box-shadow: 0 0 2em 5px hsl(150, 100%, 66%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+}
+.attribution a {
+    color: hsl(150, 100%, 66%);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    font-size: 0.75rem;
+    line-height: 20px;
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 412px) {
+    .divider_desktop {
+      display: none;
+    }
+    .divider_mobile {
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
